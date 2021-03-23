@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="Authenticate" version="SHA-512:5641c2521a4c69bcf1615d3dd58c10a194ddbc2c8628d64de45132dd4e27a725affd33613a9e9f5bf1096dae60a84d9529551138143907773a1c6abf7db1f393"/>
+        <VersionInfo resourceName="Extract-Assigning-Authority" version="SHA-512:ff4b281c1d75b739ee71eec2ac9c98a6e5235da0d541663abb8da9cdc446bfe4ce61147e392d4ce037e2445aaf028fb1c9e123ac74acc4ed6f5fb4e2d695899f"/>
+        <VersionInfo resourceName="Return-403-Response" version="SHA-512:b6dac584d28d803732f4252038309e696c18cada9403855890bae77b9ce2bd4ab9f5dd2c72728567625534371de147a4ab46c1d5e5249fa4156d8d11302f3763"/>
+        <VersionInfo resourceName="remove-query-param-apikey" version="SHA-512:6e14814e7b28c8ac86512e61d137598a4c443f684a5851b581db142dfbf0bdf51ebb8cd29d8e45d73f41c5d892a8be17dd9c343dec574d5f9cf6f2f330e4b30f"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:5930b23a664f8a1b2533bf16160499964e234ca7c1b80df2007641248d21726201120420cd0a37e9d012d4f93b3165288b35c89b4a98887764fe1677e25b559b"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:5093eaddf9e1757a0a9b3cb0155e8fa84a6c2ac41bd373e58dca8ec5e2127281735a291107a3fc32fda4d0748ba185ea893c974eb227c81dd76df2f6e7e1f318"/>
+    </TargetEndpoints>
+</Manifest>

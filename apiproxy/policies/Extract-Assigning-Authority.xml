@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="Extract-Assigning-Authority">
+    <DisplayName>Extract Assigning Authority</DisplayName>
+    <Properties/>
+    <URIPath name="name"/>
+    <QueryParam name="name"/>
+    <Header name="name"/>
+    <FormParam name="name"/>
+    <Variable name="name"/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix>MSH4</VariablePrefix>
+    <XMLPayload stopPayloadProcessing="false">
+        <Namespaces>
+            <Namespace prefix="hl7">urn:hl7-org:v2xml</Namespace>
+        </Namespaces>
+        <Variable name="AssigningAuthority" type="integer">
+            <XPath>//hl7:MSH.4/hl7:HD.1</XPath>
+        </Variable>
+    </XMLPayload>
+</ExtractVariables>

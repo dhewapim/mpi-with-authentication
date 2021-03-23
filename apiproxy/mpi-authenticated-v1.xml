@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="mpi-authenticated-v1">
+    <Basepaths>/mpi</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1616493403124</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>MPI with Application Authentication</Description>
+    <DisplayName>mpi-authenticated-v1</DisplayName>
+    <LastModifiedAt>1616495693644</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:c72bdd07a5f23c1a3e7d1a0e22d36ee9a5c6d87ed5585300e3f965571ddd5e2f48ac66be1991c51c2fa3330416feb08a7acfe82aa09a935547002542d3ee96fc:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>Authenticate</Policy>
+        <Policy>Extract-Assigning-Authority</Policy>
+        <Policy>Return-403-Response</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
